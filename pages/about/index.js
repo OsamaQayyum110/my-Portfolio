@@ -150,8 +150,8 @@ const About = () => {
           >
             I&apos;m a computer science student pursuing Bechelor in Computer Science
             from Federal Urdu University Of Art Science And Technology, Karachi
-            Pakistan. I'm a learning Fullstack Development by self practice.
-            Currently I'm Searching for Internship.
+            Pakistan. I&apos;m a learning Fullstack Development by self practice.
+            Currently I&apos;m Searching for Internship.
           </motion.p>
 
           {/* counters */}
