@@ -148,10 +148,10 @@ const About = () => {
             exit="hidden"
             className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0"
           >
-            I'm a computer science student pursuing Bechelor in Computer Science
+            I&apos;m a computer science student pursuing Bechelor in Computer Science
             from Federal Urdu University Of Art Science And Technology, Karachi
-            Pakistan. I'm a learning Fullstack Development by self practice.
-            Currently I'm Searching for Internship.
+            Pakistan. I&apos;m a learning Fullstack Development by self practice.
+            Currently I&apos;m Searching for Internship.
           </motion.p>
 
           {/* counters */}
@@ -244,7 +244,7 @@ const About = () => {
                     {/* icons */}
 
                     {item.icons?.map((icon, index) => {
-                      return <div className="text-2xl text-white">{icon}</div>;
+                      return <div key={index} className="text-2xl text-white">{icon}</div>;
                     })}
                   </div>
                 </div>
