@@ -150,8 +150,8 @@ const About = () => {
           >
             I&apos;m a computer science student pursuing Bechelor in Computer Science
             from Federal Urdu University Of Art Science And Technology, Karachi
-            Pakistan. I&apos;m a learning Fullstack Development by self practice.
-            Currently I&apos;m Searching for Internship.
+            Pakistan. I'm a learning Fullstack Development by self practice.
+            Currently I'm Searching for Internship.
           </motion.p>
 
           {/* counters */}
@@ -237,14 +237,22 @@ const About = () => {
                 >
                   {/* title */}
 
-                  <div key={index} className="font-light mb-2 md:mb-0">{item.title}</div>
-                  <div  className="hidden md:flex">-</div>
+                  <div key={index} className="font-light mb-2 md:mb-0">
+                    {item.title}
+                  </div>
+                  <div key={index} className="hidden md:flex">
+                    -
+                  </div>
                   <div key={index}>{item.stage}</div>
                   <div  className="flex gap-x-4">
                     {/* icons */}
 
                     {item.icons?.map((icon, index) => {
-                      return <div key={index} className="text-2xl text-white">{icon}</div>;
+                      return (
+                        <div key={index} className="text-2xl text-white">
+                          {icon}
+                        </div>
+                      );
                     })}
                   </div>
                 </div>
