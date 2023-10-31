@@ -237,10 +237,10 @@ const About = () => {
                 >
                   {/* title */}
 
-                  <div className="font-light mb-2 md:mb-0">{item.title}</div>
-                  <div className="hidden md:flex">-</div>
-                  <div>{item.stage}</div>
-                  <div className="flex gap-x-4">
+                  <div key={index} className="font-light mb-2 md:mb-0">{item.title}</div>
+                  <div  className="hidden md:flex">-</div>
+                  <div key={index}>{item.stage}</div>
+                  <div  className="flex gap-x-4">
                     {/* icons */}
 
                     {item.icons?.map((icon, index) => {
